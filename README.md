@@ -13,8 +13,11 @@ In the recent decade, real-time streaming analytics technology has dramatically 
 The main tools specified for this project are Flink DataStream API and Flink Stateful Functions.
 
 Please check out:
-- Flink DataStream API: [README_DatastreamAPI.md](README_DatastreamAPI.md)
-- Flink Stateful Functions: [README_StatefulFunctions.md](README_StatefulFunctions.md)
+- Flink DataStream API: [README_DatastreamAPI.md](README_DatastreamAPI.md)  
+[Repository](https://github.com/BUicicchen/Digital-Health-Streaming-Analytics/tree/datastream-api)  
+Repository: 
+- Flink Stateful Functions: [README_StatefulFunctions.md](README_StatefulFunctions.md)  
+[Repository](https://github.com/BUicicchen/Digital-Health-Streaming-Analytics)  
 
 ## Success Indicators
 
