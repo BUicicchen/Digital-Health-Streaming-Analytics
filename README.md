@@ -15,7 +15,6 @@ The main tools specified for this project are Flink DataStream API and Flink Sta
 Please check out:
 - Flink DataStream API: [README_DatastreamAPI.md](README_DatastreamAPI.md)  
 [Repository](https://github.com/BUicicchen/Digital-Health-Streaming-Analytics/tree/datastream-api)  
-Repository: 
 - Flink Stateful Functions: [README_StatefulFunctions.md](README_StatefulFunctions.md)  
 [Repository](https://github.com/BUicicchen/Digital-Health-Streaming-Analytics)  
 
