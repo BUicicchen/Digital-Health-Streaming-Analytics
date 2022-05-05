@@ -1,0 +1,58 @@
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "1", "dBP": "63", "sBP": "77"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "2", "dBP": "59", "sBP": "76"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "3", "dBP": "61", "sBP": "99"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "4", "dBP": "62", "sBP": "94"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "5", "dBP": "48", "sBP": "97"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "6", "dBP": "50", "sBP": "93"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "7", "dBP": "52", "sBP": "86"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "8", "dBP": "53", "sBP": "89"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "9", "dBP": "51", "sBP": "81"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "10", "dBP": "78", "sBP": "92"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "0", "patientID": "0", "watermark": "5"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "11", "dBP": "78", "sBP": "87"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "12", "dBP": "60", "sBP": "113"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "13", "dBP": "60", "sBP": "113"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "14", "dBP": "55", "sBP": "97"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "15", "dBP": "63", "sBP": "94"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "0", "patientID": "0", "watermark": "10"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "16", "dBP": "72", "sBP": "90"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "17", "dBP": "77", "sBP": "98"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "18", "dBP": "59", "sBP": "98"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "19", "dBP": "64", "sBP": "104"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "20", "dBP": "64", "sBP": "116"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "0", "patientID": "0", "watermark": "15"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "21", "dBP": "77", "sBP": "128"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "22", "dBP": "56", "sBP": "106"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "23", "dBP": "56", "sBP": "117"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "24", "dBP": "69", "sBP": "113"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "25", "dBP": "64", "sBP": "129"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "0", "patientID": "0", "watermark": "20"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "26", "dBP": "79", "sBP": "139"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "27", "dBP": "67", "sBP": "108"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "28", "dBP": "64", "sBP": "134"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "29", "dBP": "55", "sBP": "136"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "30", "dBP": "60", "sBP": "207"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "0", "patientID": "0", "watermark": "25"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "31", "dBP": "58", "sBP": "190"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "32", "dBP": "61", "sBP": "206"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "33", "dBP": "61", "sBP": "200"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "34", "dBP": "68", "sBP": "187"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "35", "dBP": "59", "sBP": "197"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "0", "patientID": "0", "watermark": "30"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "36", "dBP": "72", "sBP": "186"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/BloodPressure" -d '{"deviceID": "0", "patientID": "0", "timestamp": "37", "dBP": "70", "sBP": "206"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "0", "patientID": "0", "watermark": "35"}' localhost:8090/query.fns/router/1

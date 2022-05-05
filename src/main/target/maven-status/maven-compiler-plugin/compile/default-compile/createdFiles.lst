@@ -1,0 +1,10 @@
+query/QueryAppServer.class
+query/customtype/BloodPressure.class
+query/customtype/EgressRecord.class
+query/customtype/Alert$AlertType.class
+query/undertow/UndertowHttpHandler.class
+query/customtype/Alert.class
+query/customtype/CustomTypes.class
+query/Alertfn.class
+query/customtype/TypeUtils.class
+query/AnomalyDetectionfn.class

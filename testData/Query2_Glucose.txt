@@ -1,0 +1,58 @@
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "1", "glucose": "118"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "2", "glucose": "126"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "3", "glucose": "112"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "4", "glucose": "119"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "5", "glucose": "130"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "6", "glucose": "111"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "7", "glucose": "130"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "8", "glucose": "136"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "9", "glucose": "128"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "10", "glucose": "94"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "2", "patientID": "2", "watermark": "5"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "11", "glucose": "78"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "12", "glucose": "109"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "13", "glucose": "102"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "14", "glucose": "105"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "15", "glucose": "98"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "2", "patientID": "2", "watermark": "10"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "16", "glucose": "94"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "17", "glucose": "82"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "18", "glucose": "90"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "19", "glucose": "70"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "20", "glucose": "274"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "2", "patientID": "2", "watermark": "15"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "21", "glucose": "306"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "22", "glucose": "227"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "23", "glucose": "283"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "24", "glucose": "295"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "25", "glucose": "181"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "2", "patientID": "2", "watermark": "20"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "26", "glucose": "182"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "27", "glucose": "168"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "28", "glucose": "174"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "29", "glucose": "317"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "30", "glucose": "115"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "2", "patientID": "2", "watermark": "25"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "31", "glucose": "102"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "32", "glucose": "127"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "33", "glucose": "117"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "34", "glucose": "113"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "35", "glucose": "133"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "2", "patientID": "2", "watermark": "30"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "36", "glucose": "126"}' localhost:8090/query.fns/router/1
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Glucose" -d '{"deviceID":"2", "patientID":"2", "minute": "37", "glucose": "138"}' localhost:8090/query.fns/router/1
+
+curl -X PUT -H "Content-Type: application/vnd.query.customtype/Watermark" -d '{"deviceID": "2", "patientID": "2", "watermark": "35"}' localhost:8090/query.fns/router/1
